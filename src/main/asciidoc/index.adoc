@@ -1,0 +1,19 @@
+= Docs API Documentation
+
+== Introduction
+This is an example of Spring REST Docs generated documentation.
+
+== Docs API
+An API responds a message.
+
+=== Get Docs Response
+Get Docs message.
+
+==== Sample Request
+include::{snippets}/docs/http-request.adoc[]
+
+==== Sample Response
+include::{snippets}/docs/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/docs/curl-request.adoc[]

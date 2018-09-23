@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.prashanth.spring.rest.docs.test.WebLayerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-09-23T12:10:12" hostname="PRASHGUN-M-T66T" time="0.156">
+  <properties/>
+  <testcase name="shouldReturnDefaultMessage" classname="com.prashanth.spring.rest.docs.test.WebLayerTest" time="0.156"/>
+  <system-out><![CDATA[2018-09-23 17:40:11.929  INFO 11913 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.prashanth.spring.rest.docs.test.WebLayerTest], using SpringBootContextLoader
+2018-09-23 17:40:11.930  INFO 11913 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.prashanth.spring.rest.docs.test.WebLayerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-23 17:40:11.930  INFO 11913 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.prashanth.spring.rest.docs.test.WebLayerTest]: WebLayerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-23 17:40:11.945  INFO 11913 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.prashanth.spring.rest.docs.SpringRestDocs01 for test class com.prashanth.spring.rest.docs.test.WebLayerTest
+2018-09-23 17:40:11.946  INFO 11913 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener]
+2018-09-23 17:40:11.947  INFO 11913 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@42b6fc40, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@ad7efa1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@21ed185e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@79c01e7d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@ce1b9f9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@39fef523, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@709825aa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@9d2fe32, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@8fdb080, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@46e41b51]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::             (v2.1.0.M3)
+
+2018-09-23 17:40:11.975  INFO 11913 --- [    Test worker] c.p.spring.rest.docs.test.WebLayerTest   : Starting WebLayerTest on PRASHGUN-M-T66T with PID 11913 (started by prashanthgunasekaran in /Users/prashanthgunasekaran/Development/Projects/Others/spring_rest_docs)
+2018-09-23 17:40:11.977  INFO 11913 --- [    Test worker] c.p.spring.rest.docs.test.WebLayerTest   : No active profile set, falling back to default profiles: default
+2018-09-23 17:40:12.163  INFO 11913 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'applicationTaskExecutor'
+2018-09-23 17:40:12.526  INFO 11913 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2018-09-23 17:40:12.526  INFO 11913 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2018-09-23 17:40:12.541  INFO 11913 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 14 ms
+2018-09-23 17:40:12.559  INFO 11913 --- [    Test worker] c.p.spring.rest.docs.test.WebLayerTest   : Started WebLayerTest in 0.608 seconds (JVM running for 4.118)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = {}
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = com.prashanth.spring.rest.docs.controller.DocsController01
+           Method = public java.util.Map<java.lang.String, java.lang.Object> com.prashanth.spring.rest.docs.controller.DocsController01.index()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {"message":"Docs 01"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
